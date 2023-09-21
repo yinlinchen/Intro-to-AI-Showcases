@@ -19,7 +19,6 @@ This repository is a curated collection of exemplary projects chosen by students
   - [Deep Learning](#deep-learning)
   - [Transformer](#transformer)
   - [Medical](#medical)
-- [License](#license)
 
 ---
 ## AI Categories
@@ -35,11 +34,10 @@ This repository is a curated collection of exemplary projects chosen by students
 1. **[Colorful Image Colorizationn](https://richzhang.github.io/colorization/):** [[GitHub](https://github.com/richzhang/colorization)] [[Student presentation](presentations/Team2-miniproject.pdf)]
 2. **[Real-Time User-Guided Image Colorization with Learned Deep Priors](https://richzhang.github.io/InteractiveColorization/):** [[GitHub](https://github.com/junyanz/interactive-deep-colorization)] [[Demo Video](https://www.youtube.com/watch?v=eL5ilZgM89Q&ab_channel=RichardZhang)]
 3. **[StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](https://arxiv.org/abs/1711.09020):** [[GitHub](https://github.com/yunjey/stargan)]  [[Student presentation](presentations/Team14-presentation.pdf)] [[Student Code](https://github.com/ZoeLiao/VT-CS5804-Intro-to-AI-Mini-Project)]
-4. **[StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](https://arxiv.org/abs/1711.09020):** [[GitHub](https://github.com/yunjey/stargan)]  [[Student presentation](presentations/Team14-presentation.pdf)] [[Student Code](https://github.com/ZoeLiao/VT-CS5804-Intro-to-AI-Mini-Project)]
-5. **Fetching the Right Breed:** [[Student presentation](presentations/Group7-Fetching_the_Right_Breed.pdf)] [[Student Code](StudentCode/Sp23/Group7/)]
-6. **Artificial Intelligence Model for Image Classification:** [[Student presentation](presentations/Group12-CS5804-Artificial_Intelligence_Model_for_Image_Classification-PRESENTATION.pdf)]
-7. **Visual Query Response:** [[Student presentation](presentations/Group18-Visual_Query_Response_PPT.pdf)] [[Student Code](StudentCode/Sp23/Group18/)]
-8. **A Multi-fidelity Prediction with Convolutional Neural Networks Using High-Dimensional Data:** [[Student presentation](presentations/Group20-CS5804_miniProject_Presentation_MultifidelityCNN.pdf)]
+4. **Fetching the Right Breed:** [[Student presentation](presentations/Group7-Fetching_the_Right_Breed.pdf)] [[Student Code](StudentCode/Sp23/Group7/)]
+5. **Artificial Intelligence Model for Image Classification:** [[Student presentation](presentations/Group12-CS5804-Artificial_Intelligence_Model_for_Image_Classification-PRESENTATION.pdf)]
+6. **Visual Query Response:** [[Student presentation](presentations/Group18-Visual_Query_Response_PPT.pdf)] [[Student Code](StudentCode/Sp23/Group18/)]
+7. **A Multi-fidelity Prediction with Convolutional Neural Networks Using High-Dimensional Data:** [[Student presentation](presentations/Group20-CS5804_miniProject_Presentation_MultifidelityCNN.pdf)]
 
 
 ### Reinforcement Learning
