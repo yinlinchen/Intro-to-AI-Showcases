@@ -1,0 +1,45 @@
+Model Evaluation Metrics
+
+    Precision:
+        It's the ratio of correctly predicted positive observations to the total predicted positives.
+        For example, if there are no false positives (legitimate transactions wrongly labeled as fraud), the precision is 1.0 for the fraud class.
+        In your output, a precision of 0.00 for class 1 (fraudulent transactions) indicates that the model did not correctly predict any fraudulent transactions.
+
+    Recall:
+        It's the ratio of correctly predicted positive observations to all observations in the actual class.
+        A recall of 1.00 for class 0 means all legitimate transactions were correctly identified.
+        A recall of 0.00 for class 1 means no fraudulent transactions were correctly identified.
+
+    F1-Score:
+        It's the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account.
+        An F1-Score of 0.00 for class 1 is not ideal, indicating poor model performance for detecting fraudulent transactions.
+
+    Support:
+        The number of actual occurrences of the class in the specified dataset. For instance, there were 18 legitimate and 3 fraudulent transactions in your test set.
+
+    Accuracy:
+        The ratio of correctly predicted observations to the total observations.
+        An accuracy of 0.8571 means that about 85.71% of the total predictions were correct.
+
+Anomaly Detection
+
+    The script successfully identified an anomaly based on the set threshold (transaction amount greater than $3000).
+    The transaction with ID 101, amount $5000.0, and transaction time 6 was flagged as an anomaly.
+
+How Banks Can Use This Information
+
+    Model Feedback: The precision, recall, and F1-score provide insight into how well the model is performing. A low score for fraudulent transactions (class 1) suggests that the model needs improvement in detecting fraud.
+
+    Resource Allocation: High accuracy in detecting legitimate transactions can reduce false positives, which are costly in terms of customer relations and manual review labor.
+
+    Anomaly Alerts: Identifying high-amount transactions as potential anomalies can be a first step in a more detailed investigation. Banks can use such alerts to flag transactions for further review by fraud analysts.
+
+    Model Tuning: The detailed metrics can help in tuning the model parameters or in choosing a more suitable model or features to improve detection of fraudulent transactions.
+
+    Risk Management: By understanding the model's strengths and weaknesses, banks can better manage their risk and implement additional security measures where the model falls short.
+
+Key Takeaways
+
+    The model seems to be effective in identifying legitimate transactions but not fraudulent ones.
+    The anomaly detection successfully flagged a high-value transaction, which could indicate potential fraud.
+    Continuous improvement and tuning of the model are essential for effective fraud detection.
